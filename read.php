@@ -37,8 +37,8 @@
                  <td>".$row['old']."</td>
                  <td>".$row['email']."</td>
                  <td>".$row['code']."</td>
-                 <td><a href='modify.php'>update</a>
-                 <a href='delete.php'>delete</a>
+                 <td><a href='modify.php?id=".$row['id']."&nom=".$row['nom']."&old=".$row['old']."&email=".$row['email']."&code=".$row['code']."'>update</a>
+                 <a href='delete.php?id=".$row['id']."'>delete</a>
                  </td>
                 </tr>"
             ?>
